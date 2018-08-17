@@ -1,0 +1,313 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title> LIFE ON MARS</title>
+    <link rel="shortcut icon" type="image/icon" href="img/favicon.png"/>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="css/menu.css">
+    
+   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta charset="UTF-8">
+  
+        <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/flipclock.css">
+
+
+
+</head>
+
+<body style="background-color:#000010;">
+<style>
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 50;
+    left: 50;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 50;
+    left: 50;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+
+
+
+<link rel="stylesheet" href="css/nav.css">
+
+  <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="z-index: 1000;">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About</a>
+    <a href="signup.html">Register Now!</a>
+    <a href="plants.html">Life on mars</a>
+    <a href="slide.html">Achievements</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer;color:white;padding:20px;" onclick="openNav()">&#9776;</span>
+  <link rel="stylesheet" href="css/style_slide.css">
+</head>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="js/index.js"></script>
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+  <!--==========================
+    Header
+  ========================  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="margin-top:25px;"  id="open">&times;</a>====-->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="margin-top:25px;"  id="open">&times;</a>
+ <div ng-app="testApp" ng-controller="testCtrl as test" ng-class="{'menu-open': test.menuOpen}">
+  <header id="header" style="background-color: #000010">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">LIFE ON MARS</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+          <a ng-click='test.menuOpen =! test.menuOpen' class="menu-switch"  onclick="openNav()" id="closed">
+      <i class="bar-icon">
+        <div class="bar-icon-1"></div>
+        <div class="bar-icon-2"></div>
+        <div class="bar-icon-3"></div>
+      </i>
+    </a>
+       <nav class="menu" style="position:fixed;">
+    
+      <ul class="list-unstyled" style="left:30%;">
+       <a href = "index.html"><li>Home
+          <hr style="width:30%; border:1px solid red;"></li></a>
+        <br>
+     <a href = "coc.html"><li>Conduct
+         <hr style="width:30%; border:1px solid red;"></li></a>
+        <br>  
+     <a href = "speaker.html"><li>Speakers
+         <hr style="width:30%; border:1px solid red;"></li></a>
+        <br>
+          
+        <a href = "aboutus.html"><li>About
+               <hr style="width:30%; border:1px solid red;"></li></a>
+          <br>
+        <a href = "sponsors.html"><li>Sponsors
+            <hr style="width:30%; border:1px solid red;"></li></a>
+        <br>
+          </ul>
+      <div class="outer_vertical"><div class="inner_vertical"></div></div>
+    <ul class="list-unstyled" style="right:10%;">
+    <img src="img/empowerment.jpg" alt="IMAGE" style="width:300px; height:250px;">
+      </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+    </div>
+    
+    
+ <div class="page">   
+<section id="timeline">
+  
+  <div class="tl-item">
+    
+    <div class="tl-bg" style="background-image: url(img/images2.jpg)"></div>
+    
+    <div class="tl-year">
+      <h2 >HEALTH PROBLEMS</h2>
+    </div>
+
+    <div class="tl-content">
+     
+      <p>1. Space sickness <br/>2. Mental stress<br/>3. Weaker muscles<br/>4. Eye problems<br/>5. Coughs and colds<br/>6. Medical emergencies</br>
+</p>
+    </div>
+
+  </div>
+
+  <div class="tl-item">
+    
+    <div class="tl-bg" style="background-image: url(https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/images/2016/10/mars_landscape_dry_wet_0.jpg?itok=D9lQtPQQ)"></div>
+    
+    <div class="tl-year">
+      <h2 >TIME</h2>
+    </div>
+
+    <div class="tl-content">
+      <!--h1 class="f3 text--accent ttu" style="font-size:20px;">MISSION STATEMENT</h1-->
+      <p>The trip takes around seven months.</p>
+    </div>
+
+  </div>
+
+  <div class="tl-item">
+    
+    <div class="tl-bg" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mars_Ice_Home_concept.jpg/400px-Mars_Ice_Home_concept.jpg)"></div>
+    
+    <div class="tl-year">
+      <h2 >PERMANENT SETTLEMENT</h2>
+    </div>
+
+    <div class="tl-content">
+     <p>
+Establishing a permanent settlement is very complex but it is far less complex and it requires less infrastructure sent to Mars than return missions.
+</p>
+    </div>
+
+  </div>
+
+ 
+
+    
+      
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+<script  src="js/menu.js"></script>
+  <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    document.getElementById("closed").style.display = "none";
+    document.getElementById("open").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+        document.getElementById("closed").style.display = "block";
+         document.getElementById("open").style.display = "none";
+}
+</script>
+   
+
+<div id="myNav" class="overlay">
+
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About</a>
+    <a href="#">Services</a>
+    <a href="#">Itinary</a>
+    <a href="#">Achievements</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+
+
+
+
+</body>
+
+</html>

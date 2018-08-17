@@ -1,0 +1,140 @@
+ @import 'https://fonts.googleapis.com/css?family=Stardos+Stencil';
+
+ @import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
+ 
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+body {
+  background: #000;
+}
+
+
+.prefix {
+  color: #e0e0e0;
+}
+
+.btn {
+  color: #7e340d;
+  background:  #fff !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+   color: #fff; 
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.input-field .prefix.active {
+  color:  #fff !important;
+}
+.picker__date-display {
+  background:  #333 !important;
+}
+
+.welcome {
+  color: #fff !important;   
+}
+
+.user-name {
+  text-decoration: underline;
+  color: #fff !important;   
+} 
+.user-email {
+  text-decoration: underline;
+  color: #fff !important;
+} 
+.user-date {
+  text-decoration: underline;
+  text-align: center;
+  color: #fff !important;
+} 
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #a4a4a4;
+}
+.rocket {
+  color: #e0e0e0 !important;
+  font-size: 7vw;
+  text-align: center;
+}
+body {
+}
+html {
+  overflow: hidden;
+}
+.input-field {
+  margin-top: 0.5rem;
+  color: #ffffff !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6vh !important; 
+}
+label {
+  color: #ffffff !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8vh !important;  
+}
+
+.title {
+  color: #fff !important;
+  font-size: 2vh;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+.rocket {
+  transition: 400ms ease-in;
+}
+.congratz {
+    font-family: 'Open Sans', sans-serif;
+
+  
+padding-top: 2vw;
+
+  height: 100vh;
+ 
+ background-image: url(https://im-dev-proxy.imgix.net/https%3A%2F%2Fasset-1.theoutline.com%2Fv1%2Fduotone%2Fpreview%3Fend%3DFFFFFF%26start%3D000000%26url%3Dhttps%253A%252F%252Foutline-prod.imgix.net%252F20180814-4lPZtkgNJYAiRLfucz6O%253Fs%253D88620d79e7bf001b826427ecb65b6e35?auto=format&q=60&w=1280&s=37e8012dc860c8819fa1635e8fc876d5);
+ 
+ opacity: 1;
+  display: none;
+ 
+ background-size: 100%; 
+
+object-fit: cover;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.form-container {
+  padding-top: 2vw;
+  height: 100vh;
+ 
+ background-image: url(https://static1.squarespace.com/static/56a1a14b05caa7ee9f26f47d/t/57390649e707ebfa302a6e58/1463354969235/);
+ 
+ opacity: 1;
+  background-size: 100vw; 
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+
+}
+#form {
+  position: relative;
+  z-index: 1;
+  position: relative;
+  top: 0vh;
+  margin: auto;
+  background-image:url(https://static1.squarespace.com/static/56a1a14b05caa7ee9f26f47d/t/57390649e707ebfa302a6e58/1463354969235/);
+  background-size: 100vw;
+  border: 2vw solid #fff;
+}
